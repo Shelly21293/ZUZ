@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div style="text-align: center;">
+        <form action="">
+            <label for="fname"> :שם פרטי</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname"> :שם משפחה</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="Email">:כתובת מייל</label><br>
+            <input type="email" id="Email" name="Email"><br>
+            <label for="Phonenumber"> :פלאפון</label><br>
+            <input type="tel" id="Phonenumber" name="Phonenumber"><br><br>
+            <!-- תג RADIO -->
+            <input type="radio" name="Gender" value="Men">
+            <label for="Gender">גבר</label>
+            <input type="radio" name="Gender" value="Women">
+            <label for="Gender">אישה</label>
+            <input type="radio" name="Gender" value="Indefinite">
+            <label for="Gender">לא מעוניין להגדיר</label><br><br>
+            <!-- תג SELECT נושא הפנייה -->
+            <label for="subject">:נושא הפנייה</label><br>
+            <select name="subject" id="subject">
+                <option value="support">תמיכה</option>
+                <option value="sales">מכירות</option>
+                <option value="marketing">שיווק</option>
+                <option value="other">אחר</option>
+            </select><br><br>
+            <input type="text" placeholder="כיצד נוכל לעזור לך" style="text-align: rightl;width: 10cm;height: 8cm;">
+            <br><br>
+
+            <input type="reset" value="נקה טופס" style="color: red;">
+            <input type="submit" value="שליחה">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
